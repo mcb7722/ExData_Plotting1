@@ -37,7 +37,7 @@ with(targetData,{
   points(Date_Time,Sub_metering_1,type="l",col="black")
   points(Date_Time,Sub_metering_2,type="l",col="red")
   points(Date_Time,Sub_metering_3,type="l",col="blue")
-  legend("topright",col=c("black","red","blue"),lty=c(1,1,1),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+  legend("topright",col=c("black","red","blue"),bty="n",lty=c(1,1,1),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
   plot(Date_Time,Global_reactive_power,type="l",xlab="datetime")
   
 })
