@@ -28,6 +28,6 @@ targetData[,9]<-as.numeric(as.character(targetData[,9]))
 #####creates png file for plot 1#####
 #####################################
 png(file="plot1.png",width=480,height=480)   ##creates plot1.png file
-##creates the historgram of global active power
+##creates the historgram of global active power, colored red
 hist(targetData$Global_active_power,col="red",main="Global Active Power",xlab="Global Active Power (kilowatts)")
 dev.off()     ##closes the png file type
